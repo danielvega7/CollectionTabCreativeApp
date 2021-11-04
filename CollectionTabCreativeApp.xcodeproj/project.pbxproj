@@ -14,6 +14,7 @@
 		11EAB9B727340A2E00D60B41 /* CollectionTabCreativeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11EAB9B527340A2E00D60B41 /* CollectionTabCreativeApp.xcdatamodeld */; };
 		11EAB9B927340A3000D60B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EAB9B827340A3000D60B41 /* Assets.xcassets */; };
 		11EAB9BC27340A3000D60B41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11EAB9BA27340A3000D60B41 /* LaunchScreen.storyboard */; };
+		11EAB9C427340E7C00D60B41 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAB9C327340E7C00D60B41 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		11EAB9B827340A3000D60B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11EAB9BB27340A3000D60B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11EAB9BD27340A3000D60B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11EAB9C327340E7C00D60B41 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				11EAB9AE27340A2E00D60B41 /* SceneDelegate.swift */,
 				11EAB9B027340A2E00D60B41 /* ViewController.swift */,
 				11EAB9B227340A2E00D60B41 /* Main.storyboard */,
+				11EAB9C327340E7C00D60B41 /* File.swift */,
 				11EAB9B827340A3000D60B41 /* Assets.xcassets */,
 				11EAB9BA27340A3000D60B41 /* LaunchScreen.storyboard */,
 				11EAB9BD27340A3000D60B41 /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11EAB9C427340E7C00D60B41 /* File.swift in Sources */,
 				11EAB9B727340A2E00D60B41 /* CollectionTabCreativeApp.xcdatamodeld in Sources */,
 				11EAB9B127340A2E00D60B41 /* ViewController.swift in Sources */,
 				11EAB9AD27340A2E00D60B41 /* AppDelegate.swift in Sources */,
