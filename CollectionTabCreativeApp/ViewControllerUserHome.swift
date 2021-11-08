@@ -24,11 +24,15 @@ class ViewControllerUserHome: UIViewController, UIImagePickerControllerDelegate,
         super.viewDidAppear(true)
         welcomeLabelOutlet.text = "Welcome: \(StatVar.heirname)"
     }
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(true)
+        StatVar.imageArray.append(imageViewOutlet.image!)
+    }
   
     @IBAction func photoAction(_ sender: UIButton) {
         imagePicker.sourceType = UIImagePickerController.SourceType.photoLibrary
         present(imagePicker, animated: true, completion: nil)
-        StatVar.imageArray.append(imageViewOutlet.image!)
+        
     }
     
     @IBAction func cameraAction(_ sender: UIButton) {
