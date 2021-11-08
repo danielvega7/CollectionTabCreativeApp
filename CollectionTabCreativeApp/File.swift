@@ -16,5 +16,10 @@ public class User{
         password = p
     }
     
+    func toString() -> String {
+        var string = "username: \(userName), password: \(password)"
+        return string
+    }
+    
     
 }
